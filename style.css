@@ -1,0 +1,243 @@
+/* ===== GLOBAL ===== */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#000000;
+    color:white;
+}
+
+/* ===== HEADER ===== */
+#h1{
+    color:red;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:black;
+}
+
+.logo-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo-box h2{
+    color:red;
+}
+
+.mini-logo{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:2px solid red;
+}
+
+.search-box input{
+    padding:10px 20px;
+    border-radius:20px;
+    border:none;
+    width:250px;
+}
+
+/* ===== PROFILE SECTION ===== */
+.profile1{
+    background-image:url('profile1.jpg');
+    background-size:cover;
+    background-position:center;
+    border:2px double red;
+    height:300px;
+    padding:20px;
+}
+
+/* ===== TEXT ===== */
+h2,h3{
+    color:red;
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+/* ===== COURSE SECTIONS ===== */
+#html1, #css1, #js1{
+    height:500px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+#html1{
+    background-image:url('html.png');
+    background-size:contain;
+}
+
+#css1{
+    background-image:url('css.jpg');
+}
+
+#js1{
+    background-image:url('js.jpg');
+}
+
+/* ===== LAST IMAGE ===== */
+#lastimg{
+    height:200px;
+    background-image:url('lastimg.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* ===== GALLERY (BEST VERSION = GRID) ===== */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+/* ===== CARD ===== */
+.card{
+    background:#161616;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* ===== BUTTONS ===== */
+.card button{
+    margin-top:10px;
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.delete{ background:#ff3b3b; color:white; }
+.edit{ background:#ffaa00; }
+.download{ background:#00aa55; color:white; }
+
+/* ===== CATEGORY FILTER ===== */
+.categories{
+    text-align:center;
+    margin-top:20px;
+}
+
+.categories button{
+    background:#1c1c1c;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.categories button:hover{
+    background:red;
+}
+
+/* ===== DROPDOWN MENU ===== */
+.menu{
+    position:relative;
+    text-align:right;
+}
+
+.menu button{
+    background:none;
+    border:none;
+    font-size:22px;
+    color:white;
+    cursor:pointer;
+}
+
+.dropdown{
+    display:none;
+    position:absolute;
+    right:0;
+    background:#222;
+    padding:5px;
+    border-radius:5px;
+}
+
+.dropdown button{
+    display:block;
+    background:none;
+    border:none;
+    color:white;
+    padding:5px 10px;
+}
+
+.dropdown button:hover{
+    background:red;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-box{
+    background:#161616;
+    padding:40px;
+    border-radius:10px;
+    width:300px;
+    text-align:center;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.login-box button{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* ===== UPLOAD BOX ===== */
+.upload-box{
+    text-align:center;
+    margin-top:20px;
+}
+
+.upload-box input{
+    padding:10px;
+    margin:5px;
+    border-radius:8px;
+    border:none;
+}
+
+.upload-box button{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* ===== FOOTER ===== */
+#contact{
+    text-align:center;
+}

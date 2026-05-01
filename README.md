@@ -4,3 +4,4 @@ A complete web development repository containing HTML, CSS, JavaScript projects,
 🌐WEB PREVIEW
 
 <img src="webpreview.png" width="900px"/>
+<img src="html.png" width="900px"/>
